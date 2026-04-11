@@ -38,10 +38,11 @@
 // }
 
 //Arrays
-let arr=[1,"hii",15.0,true,[1,2,3],'okkk',null];
-console.log(arr);
-for(let i=0;i<arr.length;i++)
-{
-    console.log(typeof arr[i]);
-}
+// let arr=[1,"hii",15.0,true,[1,2,3],'okkk',null];
+// console.log(arr);
+// for(let i=0;i<arr.length;i++)
+// {
+//     console.log(typeof arr[i]);
+// }
+let arr=[1,"hii",15.0,true];
 
