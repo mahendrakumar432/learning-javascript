@@ -44,5 +44,10 @@
 // {
 //     console.log(typeof arr[i]);
 // }
-let arr=[1,"hii",15.0,true];
-
+// let arr=[1,"hii",15.0,true];
+// console.log(arr);
+// arr.push("okkk");
+// arr.pop(20);
+// arr.unshift("okkk");
+// arr.shift();
+// console.log(arr);
