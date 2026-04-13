@@ -51,3 +51,26 @@
 // arr.unshift("okkk");
 // arr.shift();
 // console.log(arr);
+// const obj={
+//     name:"sai",
+//     age:22,
+//     arr:[1,"hii",15.0,true]
+
+// }
+// console.log(obj.loc);
+// obj.loc="hyd";
+// console.log(obj);
+const user=[
+    {
+        id:1, 
+        name:"user1",
+        loc:"hyd"
+    },
+    {
+        id:2,
+        name:"user2",
+        loc:"bag"
+    },
+
+]
+console.log(user[0].name);
