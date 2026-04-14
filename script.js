@@ -124,7 +124,19 @@
 // }
 
 // doMath(2, 3, "**")
-let name ="riya";
-let age ="22";
-console.log(`My name is ${name} and my age is ${age}`);
-console.log("My name is "+name+" and my age is "+age);
+// let name ="riya";
+// let age ="22";
+// console.log(`My name is ${name} and my age is ${age}`);
+// console.log("My name is "+name+" and my age is "+age);
+//console.log(document);
+// let buchi=document.getElementById("buchi");
+// buchi.innerText="welcome";
+// buchi.innerHTML="<b>hello</b>";
+let para=document.getElementsByClassName("para");
+console.log(para);
+let box=document.getElementsByClassName("box");
+console.log(box);  
+box[0].innerText="heyyy"; 
+
+box[1].innerHTML="<i>yoooo</i>";
+para[0].innerHTML="<b>bye</b>";
