@@ -124,3 +124,7 @@
 // }
 
 // doMath(2, 3, "**")
+let name ="riya";
+let age ="22";
+console.log(`My name is ${name} and my age is ${age}`);
+console.log("My name is "+name+" and my age is "+age);
