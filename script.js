@@ -132,11 +132,80 @@
 // let buchi=document.getElementById("buchi");
 // buchi.innerText="welcome";
 // buchi.innerHTML="<b>hello</b>";
-let para=document.getElementsByClassName("para");
-console.log(para);
-let box=document.getElementsByClassName("box");
-console.log(box);  
-box[0].innerText="heyyy"; 
+// let ishow=true;
+// const myFun=()=>{
+//     let display = document.getElementById("display");
+//     if(ishow){
+//         display.src ="https://www.dexerto.com/cdn-image/wp-content/uploads/2023/07/18/spider-man-movies-in-order.jpg?width=1200&quality=60&format=auto";
+//         ishow=false;
+//     }
+//     else{
+//         display.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3LvNAANNO_qJNUGxzrsix0hK7fVElqtquTA&s";
+//         ishow=true;
+//     }
+// } 
 
-box[1].innerHTML="<i>yoooo</i>";
-para[0].innerHTML="<b>bye</b>";
+// const add=()=>{
+//     event.preventDefault();
+//     let value1=document.getElementById("value1").value;
+//     let value2=document.getElementById("value2").value; 
+//     let display=document.getElementById("display");
+//     display.innerHTML= `The sum of ${value1} and ${value2} is ${Number(value1)+Number(value2)}`;
+//     display.innerHTML = `The difference of ${value1} and ${value2} is ${Number(value1) - Number(value2)}`;
+//     display.innerHTML = `The product of ${value1} and ${value2} is ${Number(value1) * Number(value2)}`;
+//     display.innerHTML = `The division of ${value1} and ${value2} is ${Number(value1) / Number(value2)}`;
+//     display.innerHTML = `The remainder when ${value1} is divided by ${value2} is ${Number(value1) % Number(value2)}`;
+// }
+// const calculate = (type) => {
+//     let value1 = document.getElementById("value1").value;
+//     let value2 = document.getElementById("value2").value;
+//     let display = document.getElementById("display");
+
+//     if (value1 === "" || value2 === "" || isNaN(value1) || isNaN(value2)) {
+//         display.innerHTML = "⚠️ Enter valid numbers";
+//         return;
+//     }
+
+//     let num1 = Number(value1);
+//     let num2 = Number(value2);
+//     let result;
+
+//     if (type === "add") {
+//         result = num1 + num2;
+//         display.innerHTML = `The sum of ${value1} and ${value2} is ${result}`;
+//     }
+//     else if (type === "sub") {
+//         result = num1 - num2;
+//         display.innerHTML = `The difference of ${value1} and ${value2} is ${result}`;
+//     }
+//     else if (type === "mul") {
+//         result = num1 * num2;
+//         display.innerHTML = `The product of ${value1} and ${value2} is ${result}`;
+//     }
+//     else if (type === "div") {
+//         if (num2 === 0) {
+//             display.innerHTML = "⚠️ Cannot divide by zero";
+//             return;
+//         }
+//         result = num1 / num2;
+//         display.innerHTML = `The division of ${value1} by ${value2} is ${result}`;
+//     }
+//     else if (type === "mod") {
+//         if (num2 === 0) {
+//             display.innerHTML = "⚠️ Cannot divide by zero";
+//             return;
+//         }
+//         result = num1 % num2;
+//         display.innerHTML = `The remainder when ${value1} is divided by ${value2} is ${result}`;
+//     }
+// }
+// function changeColor() {
+//     let letters = "0123456789ABCDEF";
+//     let color = "#";
+
+//     for (let i = 0; i < 6; i++) {
+//         color += letters[Math.floor(Math.random() * 16)];
+//     }
+
+//     document.getElementById("box").style.backgroundColor = color;
+// }
